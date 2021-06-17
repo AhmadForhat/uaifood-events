@@ -15,6 +15,10 @@ export const Container = styled.div`
   box-shadow: 0 1px 2px rgba(52, 60, 88, 0.4);
   width: 100%;
   min-width: 300px;
+
+  @media (max-width: 900px) {
+    min-width: 100%;
+  }
 `
 
 export const Image = styled.img`
@@ -22,6 +26,10 @@ export const Image = styled.img`
   min-width: 300px;
   height: 160px;
   object-fit: cover;
+
+  @media (max-width: 900px) {
+    min-width: 100%;
+  }
 `
 
 export const ContainerInfos = styled.div`
